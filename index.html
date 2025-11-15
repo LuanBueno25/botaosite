@@ -1,21 +1,121 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>site_sprint3</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hope For Children — Support & Adoption</title>
     <link rel="stylesheet" href="css/style.css">
-    
+    <meta name="description"
+        content="Support children affected by child labour in Asia. Learn how to adopt, donate, volunteer, and partner with local organizations.">
 </head>
+
 <body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <h1 class="brand">Hope For Children</h1>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="#about">About</a>
+                <a href="#adoption">Adoption</a>
+                <a href="#support">Support</a>
+                <a href="#volunteer">Volunteer</a>
+                <a href="#resources">Resources</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-    <img class="logo" src="img/3c460854-e666-459f-870d-56f2459a7ebc.png" alt="">
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Protecting Childhoods, Restoring Hope</h2>
+                <p class="lead">We partner with trusted local organizations across Asia to rescue children from child
+                    labour, support rehabilitation, and offer pathways to safe adoption and family reunification.</p>
+                <p class="cta-row">
+                    <a class="btn primary" href="#adoption">Learn About Adoption</a>
+                    <a class="btn" href="#support">Donate Now</a>
+                </p>
+            </div>
+        </section>
 
-    <nav>
-        <a href="pages/contato.html">Contatos</a>
-        <a href="pages/sobre_nos.html">Sobre nós</a>
-        <a href="pages/faleconosco.html">Fale conosco</a>
-    </nav>
+        <section id="about" class="container section">
+            <h3>About Our Work</h3>
+            <p>We collaborate with community leaders, shelters, and child-protection agencies in several Asian countries
+                to identify children affected by child labour and provide medical care, education, psychosocial support,
+                and safe housing.</p>
+        </section>
 
+        <section id="adoption" class="container section card">
+            <h3>Adoption & Family Support</h3>
+            <p>Adoption is a careful, lawful process. We help families understand international and local adoption laws
+                and guide every step to ensure ethical placements.</p>
+            <ul>
+                <li><strong>Step 1:</strong> Assessment by local child-protection teams.</li>
+                <li><strong>Step 2:</strong> Social and medical evaluations and attempts to reunify with family.</li>
+                <li><strong>Step 3:</strong> Legal guardianship or adoption only after full court approval.</li>
+            </ul>
+        </section>
+
+        <section id="support" class="container section">
+            <h3>How You Can Help</h3>
+            <div class="grid grid-3">
+                <div class="card small">
+                    <h4>Donate</h4>
+                    <p>Support rescue operations, schooling, and rehabilitation for children.</p>
+                    <a class="btn small" href="#donate-form">Give Today</a>
+                </div>
+
+                <div class="card small">
+                    <h4>Partner</h4>
+                    <p>Work with us to build local outreach programs and provide legal support.</p>
+                    <a class="btn small" href="#contact">Partner With Us</a>
+                </div>
+
+                <div class="card small">
+                    <h4>Spread Awareness</h4>
+                    <p>Share verified information about child labour and ethical adoption.</p>
+                    <a class="btn small" href="#resources">Get Resources</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="volunteer" class="container section card">
+            <h3>Volunteer & Intern</h3>
+            <p>Help with education, translation, fundraising, and casework support. Background checks required for
+                direct child work.</p>
+            <a class="btn" href="#volunteer-form">Apply to Volunteer</a>
+        </section>
+
+        <section id="resources" class="container section">
+            <h3>Resources</h3>
+            <ul>
+                <li><a href="#">Guide: Reporting Child Labour Safely</a></li>
+                <li><a href="#">Checklist: Ethical Adoption Steps</a></li>
+                <li><a href="#">Local Partner Directory</a></li>
+            </ul>
+        </section>
+
+        <section id="contact" class="container section card">
+            <h3>Contact & Inquiries</h3>
+            <form id="contact-form" action="#" method="post" class="form-grid" aria-label="Contact form">
+                <label for="name">Full name</label>
+                <input id="name" name="name" type="text" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="message" class="full">Message</label>
+                <textarea id="message" name="message" rows="6" class="full" required></textarea>
+
+                <button class="btn primary full" type="submit">Send Message</button>
+            </form>
+
+            <div class="donate" id="donate-form">
+                <h4>Make a Donation</h4>
+                <p>$5 / $10 / $25</p>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
